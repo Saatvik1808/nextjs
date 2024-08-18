@@ -42,8 +42,8 @@ const CartPage = () => {
   };
 
   return (
-    <div className="container mx-auto p-4 md:p-6 lg:p-8 bg-gray-50 min-h-screen">
-      <h2 className="text-2xl md:text-3xl font-bold mb-4 md:mb-6 text-gray-900">Your Cart</h2>
+<div className="container mx-auto p-6 md:p-8 lg:p-10 bg-gray-50 min-h-screen mt-14">
+<h2 className="text-2xl md:text-3xl font-bold mb-4 md:mb-6 text-gray-900">Your Cart</h2>
       {items.length === 0 ? (
         <div className="text-center">
           <p className="text-gray-600">Your cart is empty</p>

@@ -8,7 +8,7 @@ const Header = () => {
   const { items } = useSelector((state) => state.cart);
 
   return (
-    <header className="flex justify-between items-center p-4 bg-gradient-to-r from-indigo-600 to-blue-600 text-white shadow-md rounded-lg">
+    <header className="fixed top-0 left-0 w-full z-50 flex justify-between items-center p-4 bg-gradient-to-r from-indigo-600 to-blue-600 text-white shadow-lg">
       <Link href="/" className="text-2xl font-extrabold tracking-wide hover:text-yellow-300 transition duration-300 ease-in-out">
         Shop
       </Link>

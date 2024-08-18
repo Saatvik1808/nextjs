@@ -47,16 +47,9 @@ export default function Home() {
   };
 
   return (
-    <div className="container mx-auto p-4 md:p-6 lg:p-8 bg-gray-50 min-h-screen">
-      <div className="text-center mb-8">
-        <h1 className="text-3xl md:text-4xl font-extrabold text-gray-800">
-          Welcome to Our Shop
-        </h1>
-        <p className="text-gray-600 mt-2 text-sm md:text-base">
-          Discover our exclusive products and add them to your cart!
-        </p>
-      </div>
-      <div className="flex flex-col md:flex-row gap-8 mb-8">
+<div className="container mx-auto p-4 md:p-6 lg:p-8 bg-gray-50 min-h-screen mt-14">
+     
+      <div className="flex flex-col md:flex-row gap-6 mb-8">
         <div className="md:w-1/4">
           <Filter 
             categories={[...new Set(products.map(p => p.category))]} 
