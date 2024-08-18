@@ -68,14 +68,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="text-center mt-8">
-        <button
-          onClick={handleCheckout}
-          className="px-6 py-3 bg-blue-600 text-white font-semibold rounded-md shadow-md hover:bg-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-500 transition"
-        >
-          Proceed to Checkout
-        </button>
-      </div>
     </div>
   );
 }
